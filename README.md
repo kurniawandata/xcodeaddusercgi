@@ -9,7 +9,7 @@ XcodeAddUserCgi dirancang untuk ubuntu server
 Cara menggunakan :
 ------------------
 
-git clone https://github.com/kurniawandata/xcodeaddusercg
+git clone https://github.com/kurniawandata/xcodeaddusercgi
 
 apt install apache2
 
