@@ -8,12 +8,17 @@ Di /etc/sudoers tambahkan :
 www-data ALL=(ALL) NOPASSWD: ALL
 
 Untuk hak akses di /usr/lib/cgi-bin
+
 chown index.sh www-data.www-data
+
 chown run.sh www-data.www-data
+
 chmod u+x index.sh
+
 chmod u+x run.sh
 
 Peringatan :
+
 - Jangan pernah install PHP
 
 Licensi
