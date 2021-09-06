@@ -14,9 +14,14 @@ apt install apache2
 sudo a2enmod cgi
 
 Di /etc/sudoers tambahkan :
+
+nano /etc/sudoers
+
 www-data ALL=(ALL) NOPASSWD: ALL
 
 Untuk hak akses di /usr/lib/cgi-bin
+
+cd /usr/lib/cgi-bin
 
 chown index.sh www-data.www-data
 
