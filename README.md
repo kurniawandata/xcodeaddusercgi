@@ -17,9 +17,7 @@ chmod u+x index.sh
 
 chmod u+x run.sh
 
-Peringatan :
-
-- Jangan pernah install PHP
+Peringatan : Jangan pernah install PHP di server kecuali tahu cara mengamankannya, untuk cara mengamankannya bisa menghubungi Kurniawan jika ingin pakai PHP.
 
 Licensi
 -------
