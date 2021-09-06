@@ -4,6 +4,8 @@
 
 XcodeAddUserCgi adalah program untuk menambah user linux melalui web dengan cgi-bin sehingga server dedicated / VPS bisa diakses melalui terminal.
 
+XcodeAddUserCgi dirancang untuk ubuntu server
+
 Cara menggunakan :
 ------------------
 
