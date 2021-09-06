@@ -35,6 +35,12 @@ chmod u+x run.sh
 
 Peringatan : Jangan pernah install PHP di server kecuali tahu cara mengamankannya, untuk cara mengamankannya bisa menghubungi Kurniawan jika ingin pakai PHP.
 
+Implementasi 
+------------
+
+https://freevps.xcode.or.id
+
+
 Licensi
 -------
 GNU General Public License v3
