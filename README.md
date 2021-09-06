@@ -15,9 +15,9 @@ apt install apache2
 
 sudo a2enmod cgi
 
-Di /etc/sudoers tambahkan :
-
 nano /etc/sudoers
+
+Di /etc/sudoers tambahkan :
 
 www-data ALL=(ALL) NOPASSWD: ALL
 
