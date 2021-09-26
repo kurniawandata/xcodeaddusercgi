@@ -3,8 +3,10 @@
 #pattern dan title dibuat oleh Aziz Alfian - https://github.com/aalfiann
 echo "Content-type: text/html"
 echo ""
+cek=$(head -n 1 kode.txt)
+menit=$(date +"%M")
 cat <<EOT
-<!DOCTYPE html>
+<DOCTYPE html>
 <html>
 <head>
     <title>Pendaftaran user linux</title>
@@ -63,16 +65,16 @@ cat <<EOT
     <div class="container">
         <div class="row">
             <div class="offset-1 col-10 mt-4">
-                <h3 style="text-align: center;">Registration user linux - free VPS</h3>
+                <h3 style="text-align: center;">Registration user linux - xcode linux 2021.3 Beta 1</h3>
                 <form action="run.sh" method="get">
                 <table class="table">
                     <tr>
-                        <td>Nama Sub domain : </td>
+                        <td>Nama user linux : </td>
                         <td>
                             <input type="text" name="username" pattern="^[a-z0-9]+$"  title="nama user harus huruf kecil dan jangan pakai tanda - dan .">
                         </td>
                     </tr>
-                    
+                   
                     <tr>
                         <td>Password : </td>
                         <td>
@@ -80,7 +82,8 @@ cat <<EOT
                         </td>
                     </tr>
 
-                  
+                    <input type="hidden" name="menit" pattern="^[a-zA-Z0-9]+$" value=$menit title="Hanya berlaku 1 menit atau kurang." class="form-control">
+                    <input type="hidden" name="cek" pattern="^[a-zA-Z0-9]+$" value=$cek title="kode." class="form-control">                  
                     <tr>
                         <td>Captcha : </td>
                         <td id="captcha" colspan="2">
