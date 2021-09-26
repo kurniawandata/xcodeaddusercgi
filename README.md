@@ -14,7 +14,7 @@ Algoritma keamanan berbasis kode acak dan waktu dibuat oleh Kurniawan - xcode.or
 
 - Algoritma waktu, di halaman registrasi hanya dibatasi 1 menit atau kurang, kode sumber dan algoritma ini dibuat oleh kurniawan.
 
-- Filter hanya mendukung huruf dan angka user semua input.
+- Filter hanya mendukung huruf dan angka untuk semua input.
 
 - Filter pengecekan folder user sudah dibuat belum, jika sudah, maka ditolak, jika belum maka user dibuat.
 
