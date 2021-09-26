@@ -8,7 +8,7 @@ XcodeAddUser Version 1.2
 
 XcodeAddUserCgi dirancang untuk ubuntu server
 
-Algoritma keamanan yang diciptakan oleh Kurniawan - xcode.or.id
+Algoritma keamanan berbasis kode acak dan waktu dibuat oleh Kurniawan - xcode.or.id
 ---------------------------------------------------------------
 - Kode acak dibuat oleh backend, index.sh akan mengambil kode rahasia tersebut, setelah dikirimkan dan pendaftaran berhasil maka kode diacak kembali, algoritma dan kode sumber ini dibuat oleh kurniawan.
 
