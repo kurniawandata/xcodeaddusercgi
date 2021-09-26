@@ -12,7 +12,7 @@ Algoritma keamanan berbasis kode acak dan waktu dibuat oleh Kurniawan - xcode.or
 ---------------------------------------------------------------
 - Kode acak dibuat oleh backend, index.sh akan mengambil kode rahasia tersebut, setelah dikirimkan dan pendaftaran berhasil maka kode diacak kembali, algoritma dan kode sumber ini dibuat oleh kurniawan.
 
-- Algoritma waktu, tiap login dibatasi 1 menit atau kurang, kode sumber dan algoritma ini dibuat oleh kurniawan.
+- Algoritma waktu, di halaman registrasi hanya dibatasi 1 menit atau kurang, kode sumber dan algoritma ini dibuat oleh kurniawan.
 
 - Filter hanya mendukung huruf dan angka user semua input.
 
