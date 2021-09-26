@@ -65,7 +65,7 @@ cat <<EOT
     <div class="container">
         <div class="row">
             <div class="offset-1 col-10 mt-4">
-                <h3 style="text-align: center;">Registration user linux - xcode linux 2021.3 Beta 1</h3>
+                <h3 style="text-align: center;">Registration user linux</h3>
                 <form action="run.sh" method="get">
                 <table class="table">
                     <tr>
