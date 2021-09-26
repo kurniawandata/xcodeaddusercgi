@@ -4,7 +4,19 @@
 
 XcodeAddUserCgi adalah program untuk menambah user linux melalui web dengan cgi-bin sehingga server dedicated / VPS bisa diakses melalui terminal.
 
+XcodeAddUser Version 1.2
+
 XcodeAddUserCgi dirancang untuk ubuntu server
+
+Algoritma keamanan yang diciptakan oleh Kurniawan - xcode.or.id
+---------------------------------------------------------------
+- Kode acak dibuat oleh backend, index.sh akan mengambil kode rahasia tersebut, setelah dikirimkan dan pendaftaran berhasil maka kode diacak kembali, algoritma dan kode sumber ini dibuat oleh kurniawan.
+
+- Algoritma waktu, tiap login dibatasi 1 menit atau kurang, kode sumber dan algoritma ini dibuat oleh kurniawan.
+
+- Filter hanya mendukung huruf dan angka user semua input.
+
+- Filter pengecekan folder user sudah dibuat belum, jika sudah, maka ditolak, jika belum maka user dibuat.
 
 Cara menggunakan :
 ------------------
@@ -38,7 +50,7 @@ Peringatan : Jangan pernah install PHP di server kecuali tahu cara mengamankanny
 Implementasi 
 ------------
 
-https://freevps.xcode.or.id
+https://freehacklab.xcode.or.id
 
 
 Licensi
