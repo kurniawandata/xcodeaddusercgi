@@ -21,29 +21,29 @@ Algoritma keamanan berbasis kode acak dan waktu dibuat oleh Kurniawan - xcode.or
 Cara menggunakan :
 ------------------
 
-git clone https://github.com/kurniawandata/xcodeaddusercgi
+- git clone https://github.com/kurniawandata/xcodeaddusercgi
 
-apt install apache2
+- apt install apache2
 
-sudo a2enmod cgi
+- sudo a2enmod cgi
 
-nano /etc/sudoers
+- nano /etc/sudoers
 
-Di /etc/sudoers tambahkan :
+- Di /etc/sudoers tambahkan :
 
-www-data ALL=(ALL) NOPASSWD: ALL
+- www-data ALL=(ALL) NOPASSWD: ALL
 
-Untuk hak akses di /usr/lib/cgi-bin
+- Untuk hak akses di /usr/lib/cgi-bin
 
-cd /usr/lib/cgi-bin
+- cd /usr/lib/cgi-bin
 
-chown index.sh www-data.www-data
+- chown index.sh www-data.www-data
 
-chown run.sh www-data.www-data
+- chown run.sh www-data.www-data
 
-chmod u+x index.sh
+- chmod u+x index.sh
 
-chmod u+x run.sh
+- chmod u+x run.sh
 
 Peringatan : Jangan pernah install PHP di server kecuali tahu cara mengamankannya, untuk cara mengamankannya bisa menghubungi Kurniawan jika ingin pakai PHP.
 
