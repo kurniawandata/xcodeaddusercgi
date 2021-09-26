@@ -41,9 +41,8 @@ cat <<EOT
 Username : $username <br />
 Password : $password<br />
 <br />
-Untuk akses terminal linux : http://ip:4200<br />
 Untuk akses untuk folder web server : /var/www/html/$username<br />
-Untuk akses untuk alamat web kamu : http://(ip):8080/$username<br />
+Untuk akses untuk alamat web kamu : http://(ip)/$username<br />
 <br />
 https://xcode.or.id<br />
 </body>
